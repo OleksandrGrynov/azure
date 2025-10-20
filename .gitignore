@@ -1,0 +1,62 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environment ===
+venv/
+env/
+.venv/
+
+# === Environment variables ===
+.env
+
+# === IDE / Editors ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# === OS specific ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs / Cache / Temp ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.seed
+__pypackages__/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.pyre/
+.cache/
+coverage.xml
+htmlcov/
+
+# === Build / Packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Databases / Files ===
+*.db
+*.sqlite3
+
+# === Azure / Cloud ===
+.azure/
+*.pubxml
+*.publishsettings
+
+# === FastAPI specific ===
+
+uvicorn.log
+
+# === Other ===
+*.iml

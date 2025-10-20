@@ -1,0 +1,9 @@
+HEAD
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+
+azure-storage-blob
+python-dotenv
+origin/main
